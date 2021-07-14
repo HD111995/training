@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+    <link rel="stylesheet" href="../css/form2.css">
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Register form</legend>
+            <form action="">
+                <table>
+                    <tr class="name">
+                        <td>
+                            <label for="">Name</label>
+
+                        </td>
+                        <td>
+                            <input type="text" name="" id="" placeholder="Name">
+                        </td>
+                    </tr>
+                    <tr class="surename">
+                        <td>
+                            <label for="">Surename</label>
+                        </td>
+                        <td>
+                            <input type="text" name="" id="" placeholder="Surname">
+                        </td>
+                    </tr>
+                    <tr class="email">
+                        <td>
+                            <label for="">Email</label>
+                        </td>
+                        <td>
+                            <input type="email" name="" id="" placeholder="Email">
+                        </td>
+                    </tr>
+                    <tr class="gender">
+                        <td>
+                            <label for="">Gender</label>
+                        </td>
+                        <td>
+                            <label for="">Male</label>
+                            <input type="radio" name="gen" id="m" checked>
+                            <label for="">Female</label>
+                            <input type="radio" name="gen" id="fe">
+                        </td>
+                    </tr>
+                    <tr class="picture">
+                        <td>
+                            <label for="">Picture</label>
+                        </td>
+                        <td>
+                            <input type="file" name="" id="" placeholder="Choose file" id="">
+                        </td>
+                    </tr>
+                    <tr class="country">
+                        <td>
+                            <label for="">Country</label>
+                        </td>
+                        <td class="select">
+                            <select name="" id="">
+                                <option value="Germany">Germany</option>
+                                <option value="USA">USA</option>
+                                <option value="England">England</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr class="lang">
+                        <td>
+                            <label for="">Preferred Languages</label>
+                        </td>
+                        <td class="langlist">
+                            <input list="languages" class="lange" multiple>
+                            <datalist id="languages" multiple>
+                                <option value="HTML">
+                                <option value="css">
+                                <option value="js">
+                                <option value="React">
+                            </datalist>
+
+                        </td>
+                    </tr>
+                    <tr class="activ">
+                        <td>
+                            <label for="">Fieled of Activity</label>
+                        </td>
+                        <td class="check">
+                            <input type="checkbox" name="F" id="it">
+                            <label for="">IT</label>
+                            <input type="checkbox" name="F" id="de">
+                            <label for="">Design</label>
+                            <input type="checkbox" name="F" id="ot">
+                            <label for="">Other</label>
+                        </td>
+                    </tr>
+                </table>
+                <div class="sub">
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Cancel">
+                </div>
+            </form>
+        </fieldset>
+    </form>
+</body>
+
+</html>

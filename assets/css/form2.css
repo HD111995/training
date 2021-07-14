@@ -1,0 +1,13 @@
+fieldset{
+width:700px;
+}
+
+label{
+    font-size:26px;
+}
+#m ,#fe{
+    transform:scale(1.4);
+}
+#lange{
+    height:50px;
+}
