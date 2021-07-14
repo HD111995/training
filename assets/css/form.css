@@ -1,0 +1,26 @@
+body{
+    background:white;
+}
+.form{
+    width:450px;
+    margin:20vh auto;
+}
+div{
+    margin:10px 0;
+}
+.name>label:after,.nachricht>label:after,.email>label:after{
+    content:'*';
+    color:red;
+}
+.email>input ,.thema>select{
+    width:325px;
+}
+.sub{
+    width:325px;
+    color:white;
+    background:rgb(5, 126, 106);
+    height:25px;
+}
+.sub:hover{
+    background:rgb(1, 1, 39);
+}
