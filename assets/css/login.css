@@ -1,0 +1,56 @@
+.siup{
+    text-align:center;
+    background:rgb(3, 34, 31);
+    width:340px;
+    margin:20vh auto;
+   
+}
+
+a{
+    display:inline-block;
+    color:white;
+    text-decoration-line: none;
+    font-size:18;
+    width:150px;
+    height:40px;
+    border:1px hidden;
+    margin-top:15px;
+    padding-top:17px;
+    
+}
+.link a:nth-child(2){
+    background:rgb(3, 180, 106);
+}
+.link a:hover{
+    background:greenyellow;
+}
+h2{
+    color:white;
+    margin-top:20px;
+    font-size:28px;
+}
+
+    
+
+#E,#P{
+    width:325px;
+    height:25px;
+    margin-top:20px;
+    background:rgb(3, 34, 31);
+    border:1px solid white;
+}
+#fp{
+    color:green;
+    text-decoration-line: underline;
+}
+#gt{
+    color:white;
+    background:rgb(3, 180, 106);
+    font-size:24px;
+    text-transform:uppercase;
+    word-spacing:10px;
+    display:inline-block;
+    margin:25px auto;
+    width:325px;
+    height:40px;
+}
